@@ -1,0 +1,9 @@
+{
+    "name": "DSA.Extensions.PlayerControl",
+    "references": [
+        "StandardAssets",
+        "DSA.Extensions.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
