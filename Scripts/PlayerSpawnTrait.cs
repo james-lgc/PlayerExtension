@@ -8,7 +8,7 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public abstract class PlayerSpawnTrait : TraitBase, ISendable<TransformValue?>
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Player; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Player; } }
 
 	public Action<TransformValue?> SendAction { get; set; }
 

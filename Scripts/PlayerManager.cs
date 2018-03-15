@@ -7,7 +7,7 @@ namespace DSA.Extensions.PlayerControl
 {
 	public class PlayerManager : CanvasedManagerBase<HUDCanvas>
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Player; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Player; } }
 
 		[SerializeField] private Player thisPlayer;
 		private GameObject viewedObject;

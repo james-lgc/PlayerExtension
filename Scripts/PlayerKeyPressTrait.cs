@@ -10,7 +10,7 @@ namespace DSA.Extensions.Base
 	[System.Serializable]
 	public class PlayerKeyPressTrait : TraitBase
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Player; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Player; } }
 
 		[SerializeField] private UnityEngine.Events.UnityEvent useEvent;
 

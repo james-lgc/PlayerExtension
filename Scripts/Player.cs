@@ -9,7 +9,7 @@ namespace DSA.Extensions.PlayerControl
 	[System.Serializable]
 	public class Player : TraitedMonoBehaviour
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Player; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Player; } }
 
 		[Header("Classes")] [SerializeField] private UnityStandardAssets.Characters.FirstPerson.FirstPersonController fpsController;
 		[SerializeField] private Camera cam;
